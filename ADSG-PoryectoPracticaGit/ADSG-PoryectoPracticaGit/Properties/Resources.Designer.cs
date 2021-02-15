@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace ADSG_ProyectoPracticaGit.Properties
+namespace ADSG_PoryectoPracticaGit.Properties
 {
     /// <summary>
     ///   Clase de recurso fuertemente tipado para buscar cadenas traducidas, etc.
@@ -43,7 +43,7 @@ namespace ADSG_ProyectoPracticaGit.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ADSG_ProyectoPracticaGit.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ADSG_PoryectoPracticaGit.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
