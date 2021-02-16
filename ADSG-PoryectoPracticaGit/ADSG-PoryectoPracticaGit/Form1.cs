@@ -23,16 +23,31 @@ namespace ADSG_PoryectoPracticaGit
         private void button1_Click(object sender, EventArgs e)
         {
             Alumno miAlumno = new Alumno();
-            String miAlumnoStr;
-
+            String miAlumnoStr, miAlumnoNotaTexto;
             miAlumno.Nombre = aluNombre.Text;
             miAlumno.Nota = Convert.ToInt32(aluNota.Text);
-            miAlumnoStr = aluNombre.Text + " " + aluNota.Text + (miAlumno.Aprobado ? " Aprobado\r\n" : " Suspenso\r\n");
-            listaAlumnos.AppendText(miAlumnoStr);
-            misAlumnos.Agregar(miAlumno);
+            if (miAlumno.Nota < 5)
+            {
+                miAlumnoNotaTexto = "Suspenso";
+            }
+            else if (miAlumno.Nota < 7)
+            {
+                miAlumnoNotaTexto = "Aprobado";
+            }
+            else if (miAlumno.Nota < 9)
+            {
+                miAlumnoNotaTexto = "Notable";
+            }
+            else
+                miAlumnoNotaTexto = "Sobresaliente";
+                miAlumnoStr = aluNombre.Text + " " + aluNota.Text + " " + miAlumnoNotaTexto + "\n";
+                listaAlumnos.AppendText(miAlumnoStr);
+                misAlumnos.Agregar(miAlumno);
         }
 
-        class Alumno
+    }
+
+    class Alumno
         {
             private string nombre;
             private int nota;
@@ -104,5 +119,6 @@ namespace ADSG_PoryectoPracticaGit
                 }
             }
         }
-    }
+    
 }
+
