@@ -26,8 +26,8 @@ namespace ADSG_PoryectoPracticaGit
             String miAlumnoStr;
 
             miAlumno.Nombre = aluNombre.Text;
-            miAlumno.Nota = Convert.ToInt32(aluNota.Text);
-            miAlumnoStr = aluNombre.Text + " " + aluNota.Text + (miAlumno.Aprobado ? " Aprobado\r\n" : " Suspenso\r\n");
+            miAlumno.Nota = Convert.ToInt32(numericUpDown1.Value);
+            miAlumnoStr = aluNombre.Text + " " + numericUpDown1.Value + (miAlumno.Aprobado ? " Aprobado\r\n" : " Suspenso\r\n");
             listaAlumnos.AppendText(miAlumnoStr);
             misAlumnos.Agregar(miAlumno);
         }
