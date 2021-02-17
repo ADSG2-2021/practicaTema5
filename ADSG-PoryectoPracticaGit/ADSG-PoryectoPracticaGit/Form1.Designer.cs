@@ -35,8 +35,8 @@ namespace ADSG_PoryectoPracticaGit
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.aluNota = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.aluNota)).BeginInit();
             this.SuspendLayout();
             // 
             // aluNombre
@@ -92,24 +92,24 @@ namespace ADSG_PoryectoPracticaGit
             this.label3.TabIndex = 6;
             this.label3.Text = "Lista de Alumnos";
             // 
-            // numericUpDown1
+            // aluNota
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(373, 121);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
+            this.aluNota.Location = new System.Drawing.Point(373, 121);
+            this.aluNota.Maximum = new decimal(new int[] {
             10,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(81, 20);
-            this.numericUpDown1.TabIndex = 7;
+            this.aluNota.Name = "aluNota";
+            this.aluNota.Size = new System.Drawing.Size(81, 20);
+            this.aluNota.TabIndex = 7;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 497);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.aluNota);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -118,7 +118,7 @@ namespace ADSG_PoryectoPracticaGit
             this.Controls.Add(this.aluNombre);
             this.Name = "Form1";
             this.Text = "Alumnos";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.aluNota)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,7 +132,7 @@ namespace ADSG_PoryectoPracticaGit
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown aluNota;
     }
 }
 
