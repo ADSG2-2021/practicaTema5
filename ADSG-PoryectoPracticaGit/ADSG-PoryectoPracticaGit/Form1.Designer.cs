@@ -30,12 +30,13 @@ namespace ADSG_PoryectoPracticaGit
         private void InitializeComponent()
         {
             this.aluNombre = new System.Windows.Forms.TextBox();
-            this.aluNota = new System.Windows.Forms.TextBox();
             this.listaAlumnos = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.aluNota = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.aluNota)).BeginInit();
             this.SuspendLayout();
             // 
             // aluNombre
@@ -44,13 +45,6 @@ namespace ADSG_PoryectoPracticaGit
             this.aluNombre.Name = "aluNombre";
             this.aluNombre.Size = new System.Drawing.Size(230, 20);
             this.aluNombre.TabIndex = 0;
-            // 
-            // aluNota
-            // 
-            this.aluNota.Location = new System.Drawing.Point(373, 119);
-            this.aluNota.Name = "aluNota";
-            this.aluNota.Size = new System.Drawing.Size(100, 20);
-            this.aluNota.TabIndex = 1;
             // 
             // listaAlumnos
             // 
@@ -98,20 +92,33 @@ namespace ADSG_PoryectoPracticaGit
             this.label3.TabIndex = 6;
             this.label3.Text = "Lista de Alumnos";
             // 
+            // aluNota
+            // 
+            this.aluNota.Location = new System.Drawing.Point(373, 121);
+            this.aluNota.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.aluNota.Name = "aluNota";
+            this.aluNota.Size = new System.Drawing.Size(81, 20);
+            this.aluNota.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(784, 497);
+            this.Controls.Add(this.aluNota);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listaAlumnos);
-            this.Controls.Add(this.aluNota);
             this.Controls.Add(this.aluNombre);
             this.Name = "Form1";
             this.Text = "Alumnos";
+            ((System.ComponentModel.ISupportInitialize)(this.aluNota)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -120,12 +127,12 @@ namespace ADSG_PoryectoPracticaGit
         #endregion
 
         private System.Windows.Forms.TextBox aluNombre;
-        private System.Windows.Forms.TextBox aluNota;
         private System.Windows.Forms.TextBox listaAlumnos;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.NumericUpDown aluNota;
     }
 }
 

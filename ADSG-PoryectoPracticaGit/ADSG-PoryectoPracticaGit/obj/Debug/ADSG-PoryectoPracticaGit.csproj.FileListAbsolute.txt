@@ -8,3 +8,13 @@ C:\Users\aitor\source\repos\ADSG1-2020\practicaTema5\ADSG-PoryectoPracticaGit\AD
 C:\Users\aitor\source\repos\ADSG1-2020\practicaTema5\ADSG-PoryectoPracticaGit\ADSG-PoryectoPracticaGit\obj\Debug\ADSG-PoryectoPracticaGit.csproj.CoreCompileInputs.cache
 C:\Users\aitor\source\repos\ADSG1-2020\practicaTema5\ADSG-PoryectoPracticaGit\ADSG-PoryectoPracticaGit\obj\Debug\ADSG-PoryectoPracticaGit.exe
 C:\Users\aitor\source\repos\ADSG1-2020\practicaTema5\ADSG-PoryectoPracticaGit\ADSG-PoryectoPracticaGit\obj\Debug\ADSG-PoryectoPracticaGit.pdb
+C:\Users\usuario\Source\Repos\ADSG2-2021\practicaTema5\ADSG-PoryectoPracticaGit\ADSG-PoryectoPracticaGit\bin\Debug\ADSG-PoryectoPracticaGit.exe.config
+C:\Users\usuario\Source\Repos\ADSG2-2021\practicaTema5\ADSG-PoryectoPracticaGit\ADSG-PoryectoPracticaGit\bin\Debug\ADSG-PoryectoPracticaGit.exe
+C:\Users\usuario\Source\Repos\ADSG2-2021\practicaTema5\ADSG-PoryectoPracticaGit\ADSG-PoryectoPracticaGit\bin\Debug\ADSG-PoryectoPracticaGit.pdb
+C:\Users\usuario\Source\Repos\ADSG2-2021\practicaTema5\ADSG-PoryectoPracticaGit\ADSG-PoryectoPracticaGit\obj\Debug\ADSG-PoryectoPracticaGit.csprojAssemblyReference.cache
+C:\Users\usuario\Source\Repos\ADSG2-2021\practicaTema5\ADSG-PoryectoPracticaGit\ADSG-PoryectoPracticaGit\obj\Debug\ADSG_PoryectoPracticaGit.Form1.resources
+C:\Users\usuario\Source\Repos\ADSG2-2021\practicaTema5\ADSG-PoryectoPracticaGit\ADSG-PoryectoPracticaGit\obj\Debug\ADSG_PoryectoPracticaGit.Properties.Resources.resources
+C:\Users\usuario\Source\Repos\ADSG2-2021\practicaTema5\ADSG-PoryectoPracticaGit\ADSG-PoryectoPracticaGit\obj\Debug\ADSG-PoryectoPracticaGit.csproj.GenerateResource.cache
+C:\Users\usuario\Source\Repos\ADSG2-2021\practicaTema5\ADSG-PoryectoPracticaGit\ADSG-PoryectoPracticaGit\obj\Debug\ADSG-PoryectoPracticaGit.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Source\Repos\ADSG2-2021\practicaTema5\ADSG-PoryectoPracticaGit\ADSG-PoryectoPracticaGit\obj\Debug\ADSG-PoryectoPracticaGit.exe
+C:\Users\usuario\Source\Repos\ADSG2-2021\practicaTema5\ADSG-PoryectoPracticaGit\ADSG-PoryectoPracticaGit\obj\Debug\ADSG-PoryectoPracticaGit.pdb
